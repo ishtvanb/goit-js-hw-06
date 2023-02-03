@@ -16,7 +16,6 @@ const userInfo = {
     email: email.value,
     password: password.value,
 };
-
     console.log(userInfo);
 
     event.currentTarget.reset();
