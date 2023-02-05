@@ -18,8 +18,6 @@ const allImages = document.querySelector('.gallery');
 const imagesEl = images.map(({ url, alt }) => 
   `<li><img src='${url}' alt='${alt}' width = 100%></li>`).join('');
   console.log(imagesEl);
-  const imageEl = document.createElement('img');
-  const itemEl = document.createElement('li');
   
   allImages.insertAdjacentHTML('afterbegin', imagesEl);
    
